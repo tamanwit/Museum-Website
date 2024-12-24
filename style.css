@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    
+    
+}
+.landing{
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    top: 0;
+    left: 0;
+}
+.nav-links{
+    margin-top: 0px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+li a.nl{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    line-height: 80px;
+    margin-left: 30px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+li a#active{
+    color: white;
+}
+li a.nl:hover{
+    color: white;
+    letter-spacing: 0.2em;
+}
+.logo{
+    margin-left: 94px;
+    font-size: 3em;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+.logo span{
+    color: black;
+}
+li a.nl-1{
+    margin-left: 120px;
+}
+.banner .txt1{
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 120px;
+}
+.txt2{
+    color: black;
+    font-size: 4.5em;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+}
+.but{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{ 
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    font-weight: 900;
+    font-size: 1em;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+.info:hover{
+    letter-spacing: 0.5em;
+    border: 2px solid black;
+    font-weight: 900;
+    background-color: transparent;
+}
+
+.container {
+    bottom : 10px;
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 100px;
+    margin-left: 69px;
+    transition: 0.5s ease;
+}
+.icon:hover{
+    transform: scale(1.4);
+}
+.object {
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.notice {
+    display: none;
+    position: absolute;
+    font-weight: 600;
+    top: 0;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 30px;
+    top: 50%;
+    left: 0;
+    
+
+    left: 100%;
+    background-color: lightgreen;
+    padding: 10px;
+    border: 2px solid green;
+}
